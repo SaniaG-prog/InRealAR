@@ -1,5 +1,29 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Users/sania/Documents/InRealAR/app/src/main/res/drawable/dividing_line.xml" value="0.1" />
+        <entry key="..\:/Users/sania/Documents/InRealAR/app/src/main/res/drawable/gradient_background.xml" value="0.1" />
+        <entry key="..\:/Users/sania/Documents/InRealAR/app/src/main/res/drawable/order_shape.xml" value="0.1" />
+        <entry key="..\:/Users/sania/Documents/InRealAR/app/src/main/res/drawable/rectangle.xml" value="0.1" />
+        <entry key="..\:/Users/sania/Documents/InRealAR/app/src/main/res/layout/activity_ar_foundtaion.xml" value="0.1" />
+        <entry key="..\:/Users/sania/Documents/InRealAR/app/src/main/res/layout/activity_main.xml" value="0.1" />
+        <entry key="..\:/Users/sania/Documents/InRealAR/app/src/main/res/layout/card_for_dish.xml" value="0.1" />
+        <entry key="..\:/Users/sania/Documents/InRealAR/app/src/main/res/layout/card_for_fragment_categories.xml" value="0.1" />
+        <entry key="..\:/Users/sania/Documents/InRealAR/app/src/main/res/layout/detailed_dish_fagment.xml" value="0.16666666666666666" />
+        <entry key="..\:/Users/sania/Documents/InRealAR/app/src/main/res/layout/fragment_ar_foundation.xml" value="0.1" />
+        <entry key="..\:/Users/sania/Documents/InRealAR/app/src/main/res/layout/fragment_category.xml" value="0.1" />
+        <entry key="..\:/Users/sania/Documents/InRealAR/app/src/main/res/layout/fragment_dish.xml" value="0.1" />
+        <entry key="..\:/Users/sania/Documents/InRealAR/app/src/main/res/layout/fragment_for_order.xml" value="0.1" />
+        <entry key="..\:/Users/sania/Documents/InRealAR/app/src/main/res/layout/fragment_qr.xml" value="0.22" />
+        <entry key="..\:/Users/sania/Documents/InRealAR/app/src/main/res/layout/fragment_top.xml" value="0.1" />
+        <entry key="..\:/Users/sania/Documents/InRealAR/app/src/main/res/layout/order_card.xml" value="0.1" />
+        <entry key="..\:/Users/sania/Documents/InRealAR/app/src/main/res/layout/toolbar_main.xml" value="0.1" />
+        <entry key="..\:/Users/sania/Documents/InRealAR/app/src/main/res/menu/menu_main.xml" value="0.16666666666666666" />
+      </map>
+    </option>
+  </component>
   <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
     <output url="file://$PROJECT_DIR$/build/classes" />
   </component>
