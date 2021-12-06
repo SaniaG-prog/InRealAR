@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/navigation__graph"
+    app:startDestination="@id/fragmentInstructions">
+
+    <fragment
+        android:id="@+id/fragmentCategories"
+        android:name="com.proct.activities.inreal.views.main.category.FragmentCategories"
+        android:label="fragment_main__categories"
+        tools:layout="@layout/fragment_main__categories" >
+        <action
+            android:id="@+id/action_fragmentCategories_to_fragmentDishes"
+            app:destination="@id/fragmentDishes" />
+    </fragment>
+    <fragment
+        android:id="@+id/fragmentDishes"
+        android:name="com.proct.activities.inreal.views.main.dishes.FragmentDishes"
+        android:label="fragment_main__dishes__dishes"
+        tools:layout="@layout/fragment_main__dishes__dishes" >
+        <action
+            android:id="@+id/action_fragmentDishes_to_fragmentDetailedDish"
+            app:destination="@id/fragmentDetailedDish" />
+    </fragment>
+    <fragment
+        android:id="@+id/fragmentDetailedDish"
+        android:name="com.proct.activities.inreal.views.main.dishes.FragmentDetailedDish"
+        android:label="fragment_main__dishes__detailed_dish"
+        tools:layout="@layout/fragment_main__dishes__detailed_dish" >
+        <action
+            android:id="@+id/action_fragmentDetailedDish_to_ARFragment"
+            app:destination="@id/ARFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/mainOrderFragment"
+        android:name="com.proct.activities.inreal.views.main.order.MainOrderFragment"
+        android:label="fragment_main__main_order"
+        tools:layout="@layout/fragment_main__main_order" >
+        <action
+            android:id="@+id/action_mainOrderFragment_to_emptyOrderFragment"
+            app:destination="@id/emptyOrderFragment"
+            app:popUpTo="@id/mainOrderFragment"
+            app:popUpToInclusive="true" />
+    </fragment>
+    <fragment
+        android:id="@+id/ARFragment"
+        android:name="com.proct.activities.inreal.views.main.ar.ARFragment"
+        android:label="fragment_main__a_r"
+        tools:layout="@layout/fragment_main__a_r" />
+    <fragment
+        android:id="@+id/fragmentInstructions"
+        android:name="com.proct.activities.inreal.views.main.instructions.InstructionsFragment"
+        android:label="fragmentInstructions"
+        tools:layout="@layout/fragment_main__instructions" >
+        <action
+            android:id="@+id/action_fragmentInstructions_to_fragmentCategories"
+            app:destination="@id/fragmentCategories" />
+    </fragment>
+    <fragment
+        android:id="@+id/emptyOrderFragment"
+        android:name="com.proct.activities.inreal.views.main.order.empty.EmptyOrderFragment"
+        android:label="fragment_main__order__empty_order"
+        tools:layout="@layout/fragment_main__order__empty_order" >
+        <action
+            android:id="@+id/action_emptyOrderFragment_to_fragmentCategories"
+            app:destination="@id/fragmentInstructions"
+            app:popUpTo="@id/fragmentCategories"
+            app:popUpToInclusive="true" />
+    </fragment>
+</navigation>
