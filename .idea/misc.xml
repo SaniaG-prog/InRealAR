@@ -3,6 +3,7 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/University/software design/InRealAR/app/src/main/res/layout/activity_main.xml" value="0.17291666666666666" />
         <entry key="..\:/Users/sania/Documents/InRealAR/app/src/main/res/drawable/dividing_line.xml" value="0.1" />
         <entry key="..\:/Users/sania/Documents/InRealAR/app/src/main/res/drawable/gradient_background.xml" value="0.1" />
         <entry key="..\:/Users/sania/Documents/InRealAR/app/src/main/res/drawable/order_shape.xml" value="0.1" />
@@ -24,7 +25,8 @@
       </map>
     </option>
   </component>
-  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+  <component name="ExternalStorageConfigurationManager" enabled="true" />
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_1_8" default="true" project-jdk-name="1.8" project-jdk-type="JavaSDK">
     <output url="file://$PROJECT_DIR$/build/classes" />
   </component>
   <component name="ProjectType">
