@@ -8,7 +8,7 @@
 
 ## Архитектура
 #### Схема модели С4 для визуализации компонентов нашего проекта:
-![image](https://github.com/SaniaG-prog/InRealAR/raw/main/app/src/main/res/raw/architecture_schema.png)
+![c4_model](https://user-images.githubusercontent.com/60623089/145715033-7a5f25cf-1573-4c85-9db2-dbea1a8651ba.png)
 #### В ходе разработки мобильного приложения использовалась MVVM-архитектура. Данный подход позволяет связывать элементы представления со свойствами и событиями View-модели. В этой архитектуре используется 3 компонента:
 * View: Содержит структурное определение того, что пользователи получат на экранах.
 * ViewModel: Этот компонент связывает модель и представление. Отвечает за 
@@ -17,3 +17,8 @@
 <img width="830" alt="mvvm_schema" src="https://user-images.githubusercontent.com/60623089/145714159-856115f2-cb5f-49bd-b1f1-e06b39ca3c72.png">
 
 #### Также при разработке приложения мы старались придерживаться подхода Clean Architecture и принципов SOLID.
+
+## Интерфейс
+<img width="200" alt="instruction_view" src="https://user-images.githubusercontent.com/60623089/145715182-4c5b2080-7101-4d6d-8ee1-3968c384856c.png"> <img width="200" alt="categories_view" src="https://user-images.githubusercontent.com/60623089/145715210-61904439-d37a-4fe7-8da1-11c0562c6e40.png"> <img width="280" alt="category_view" src="https://user-images.githubusercontent.com/60623089/145715218-96922633-4e71-4c05-a297-f99b6b44eac1.png">
+
+<img width="220" alt="dish_view" src="https://user-images.githubusercontent.com/60623089/145715227-84a0cf4e-6301-4ef0-be67-64947d1bcf07.png"> <img width="220" alt="order_view" src="https://user-images.githubusercontent.com/60623089/145715241-2d92f191-1b53-40ea-ac00-622ad7e7b52e.png"> <img width="220" alt="empty_order_view" src="https://user-images.githubusercontent.com/60623089/145715254-3d16568a-79f5-4dad-95e9-081a91c7b5c3.png">
